@@ -4,7 +4,7 @@
   * 解锁会员
 
 [rewrite_local]
-^https:\/\/api\.v2\.bookrclass\.com\/api\/mobile\/(users\/me|children) url script-response-body https://raw.githubusercontent.com/orange991/JS/main/BookRclass.js
+^https:\/\/api\.v2\.bookrclass\.com\/api\/mobile\/(users\/me|children) url script-response-body https://raw.githubusercontent.com/orange991/JS/main/BookRclass.js?token=GHSAT0AAAAAACXO764WQNIQ2KNTX7CLDMYCZXEMWUQ
 
 [mitm]
 hostname = api.v2.bookrclass.com
